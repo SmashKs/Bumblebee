@@ -111,11 +111,9 @@
 /* Begin PBXFileReference section */
 		01AEC94AEE08DE44A01BF18F /* Pods_Bumblebee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bumblebee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5BBE73CB9ADC77469DEF41 /* Pods_CommonUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12AE27D383FD2C8A4418B790 /* Pods-Shrubbery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shrubbery.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shrubbery/Pods-Shrubbery.release.xcconfig"; sourceTree = "<group>"; };
 		1BB8E9241245B53165CAD0A3 /* SecondViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		29F5505F3217CBE922583094 /* Pods_DataManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4214C6C57832CF1FB00B70DD /* SecondViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondViewInput.swift; sourceTree = "<group>"; };
-		4AE5FA136FD00E5428A1957B /* Pods-Shrubbery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shrubbery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shrubbery/Pods-Shrubbery.debug.xcconfig"; sourceTree = "<group>"; };
 		4D8D7860FDA0F70392A600CB /* Pods-DataManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataManager/Pods-DataManager.debug.xcconfig"; sourceTree = "<group>"; };
 		55C25E8C4B52053706BA7B94 /* SecondRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondRouter.swift; sourceTree = "<group>"; };
 		5A2F9ED70CE617E552865876 /* MainConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
@@ -162,12 +160,10 @@
 		82414F08BAEC0034F65A4047 /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		8F8B743AABECFBE3201BDACA /* Pods-DataManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataManager/Pods-DataManager.release.xcconfig"; sourceTree = "<group>"; };
 		943B28A820B589830057FAE5 /* CommonUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		945C1D9720AA8CE700BBC574 /* Pods_Shrubbery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Shrubbery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AA21E420B54BB900E18A8A /* DataManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D9353320AA753300520CDF /* Bumblebee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bumblebee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EC700E20AAE785002A277E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		96DF78C9C7BA6E6F7189A418 /* MainInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorInput.swift; sourceTree = "<group>"; };
-		AC6A6986FD41FB828D0DF90B /* Pods_Shrubbery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shrubbery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8EAEC68B99EEFA801F6FE9 /* SecondRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondRouterInput.swift; sourceTree = "<group>"; };
 		B0CE211816D92A6147BD49D8 /* SecondPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
 		B33526235C613293F7AD0A4C /* Pods-Bumblebee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bumblebee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bumblebee/Pods-Bumblebee.debug.xcconfig"; sourceTree = "<group>"; };
@@ -216,8 +212,6 @@
 		00A95EE0DDEB4ECD2E5FFE76 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4AE5FA136FD00E5428A1957B /* Pods-Shrubbery.debug.xcconfig */,
-				12AE27D383FD2C8A4418B790 /* Pods-Shrubbery.release.xcconfig */,
 				4D8D7860FDA0F70392A600CB /* Pods-DataManager.debug.xcconfig */,
 				8F8B743AABECFBE3201BDACA /* Pods-DataManager.release.xcconfig */,
 				78C5A311695030D8C18BFCDE /* Pods-CommonUtil.debug.xcconfig */,
@@ -617,8 +611,6 @@
 		E536AB415AC33EF0B43DDB32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				945C1D9720AA8CE700BBC574 /* Pods_Shrubbery.framework */,
-				AC6A6986FD41FB828D0DF90B /* Pods_Shrubbery.framework */,
 				29F5505F3217CBE922583094 /* Pods_DataManager.framework */,
 				0C5BBE73CB9ADC77469DEF41 /* Pods_CommonUtil.framework */,
 				01AEC94AEE08DE44A01BF18F /* Pods_Bumblebee.framework */,
@@ -664,7 +656,7 @@
 				943B28AE20B589830057FAE5 /* PBXTargetDependency */,
 			);
 			name = Bumblebee;
-			productName = shrubbery;
+			productName = bumblebee;
 			productReference = 94D9353320AA753300520CDF /* Bumblebee.app */;
 			productType = "com.apple.product-type.application";
 		};

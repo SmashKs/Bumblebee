@@ -1,5 +1,5 @@
 //
-//  BumbleBeeService+Moya.swift
+//  SmashksService+Moya.swift
 //  BumbleBee
 //
 //  Created by Jieyi on 2018/05/22.

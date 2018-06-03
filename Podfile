@@ -30,8 +30,8 @@ target 'Bumblebee' do
     pod 'SwiftyJSON', '~> 4.1.0'
 
     # For Data Storage
-    pod 'Realm', '~> 3.5.0'
-    pod 'RealmSwift', '~> 3.5.0'
+    pod 'Realm', '~> 3.6.0'
+    pod 'RealmSwift', '~> 3.6.0'
 
     # For Dependency Injection
     pod 'Swinject', '~> 2.4.0'
@@ -43,12 +43,12 @@ target 'Bumblebee' do
     pod 'SwiftyBeaver'
   end
 
-  #  target 'ShrubberyTests' do
+  #  target 'BumblebeeTests' do
   #    inherit! :search_paths
   #    pod 'RxBlocking', '~> 4.0'
   #    pod 'RxTest', '~> 4.0'
   #  end
-  #  target 'ShrubberyUITests' do
+  #  target 'BumblebeeUITests' do
   #    inherit! :search_paths
   #    # Pods for testing
   #  end

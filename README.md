@@ -1,3 +1,5 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93793bb0a28942458c02075d27cf7066)](https://www.codacy.com/app/pokk/Bumblebee?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SmashKs/Bumblebee&amp;utm_campaign=Badge_Grade)
+
 # Bumblebee
 
 # Architecture
