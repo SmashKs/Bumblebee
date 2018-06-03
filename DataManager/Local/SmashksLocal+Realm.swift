@@ -9,7 +9,7 @@
 import RealmSwift
 import RxSwift
 
-public class ShrubberyRealm: LocalDataService {
+public class SmashksRealm: LocalDataService {
     private var realm: Realm
     private lazy var realmPath = realm.configuration.fileURL!
 

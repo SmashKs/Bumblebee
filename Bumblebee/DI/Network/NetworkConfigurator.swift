@@ -15,17 +15,14 @@ class NetworkConfigurator: Assembly {
 
         // MARK: - Necessary Objects
 
-        container.register(MoyaProvider<ShrubberyMoyaConfig>.self) { _ in
-            MoyaProvider<ShrubberyMoyaConfig>()
+        container.register(MoyaProvider<SmashksMoyaConfig>.self) { _ in
+            MoyaProvider<SmashksMoyaConfig>()
         }
 
         // MARK: - Provide to the others Assembly
 
         container.register(RemoteDataService.self, name: "moya") {
-            ShrubberyMoyaService($0.resolve(MoyaProvider<ShrubberyMoyaConfig>.self)!)
-        }
-        container.register(RemoteDataService.self, name: "alamofire") { _ in
-            ShrubberyAlamofireService()
+            SmashksMoyaService($0.resolve(MoyaProvider<SmashksMoyaConfig>.self)!)
         }
     }
 }

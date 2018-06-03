@@ -22,8 +22,6 @@ target 'Bumblebee' do
   target 'DataManager' do
     inherit! :search_paths
     # For RESTful Internet Request
-    pod 'Alamofire', '~> 4.7.2'
-    pod 'RxAlamofire', '~> 4.2.0'
     pod 'ObjectMapper', '~> 3.1'
     pod 'Moya/RxSwift', '~> 11.0.2'
     # pod 'Moya-ObjectMapper/RxSwift'
@@ -34,7 +32,6 @@ target 'Bumblebee' do
     # For Data Storage
     pod 'Realm', '~> 3.5.0'
     pod 'RealmSwift', '~> 3.5.0'
-    pod 'RxCoreData', '~> 0.4.0'
 
     # For Dependency Injection
     pod 'Swinject', '~> 2.4.0'

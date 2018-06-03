@@ -7,10 +7,8 @@
 //
 
 import CommonUtil
-import CoreData
 import ObjectMapper
 import RealmSwift
-import RxCoreData
 
 public struct InformationEntity {
     var id: Int?
@@ -33,36 +31,8 @@ extension Info: Mappable {
     }
 
     public mutating func mapping(map: Map) {
-        id <- map[Info.entityName]
+        id <- map[Info.entityId]
         title <- map[Info.entityTitle]
         updatedAt <- (map[Info.updatedDate], DateTransform())
-    }
-}
-
-// MARK: - Core Data
-
-extension Info: Persistable {
-    public static var entityName = "Fake"
-    public static var primaryAttributeName = Info.entityId
-    public var identity: String {
-        return "shrubbery"
-    }
-
-    public init(entity: NSManagedObject) {
-        id = entity.value(forKey: Info.entityId) as? Int
-        title = entity.value(forKey: Info.entityTitle) as? String
-        updatedAt = entity.value(forKey: Info.updatedDate) as? Date
-    }
-
-    public func update(_ entity: NSManagedObject) {
-        entity.setValue(id, forKey: Info.entityId)
-        entity.setValue(title, forKey: Info.entityTitle)
-        entity.setValue(updatedAt, forKey: Info.updatedDate)
-
-        do {
-            try entity.managedObjectContext?.save()
-        } catch {
-            print(error)
-        }
     }
 }

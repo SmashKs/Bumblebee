@@ -8,11 +8,11 @@
 
 import Moya
 
-public enum ShrubberyMoyaConfig {
+public enum SmashksMoyaConfig {
     case retrieveFakeList
 }
 
-extension ShrubberyMoyaConfig: TargetType {
+extension SmashksMoyaConfig: TargetType {
     public var baseURL: URL {
         return URL(string: "http://172.16.31.166:3000")!
     }

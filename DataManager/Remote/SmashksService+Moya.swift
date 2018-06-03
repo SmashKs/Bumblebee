@@ -9,13 +9,13 @@
 import Moya
 import RxSwift
 
-public class ShrubberyMoyaService: RestHttpRequest, RemoteDataService {
-    private var provider: MoyaProvider<ShrubberyMoyaConfig>
+public class SmashksMoyaService: RemoteDataService {
+    private var provider: MoyaProvider<SmashksMoyaConfig>
     private lazy var rxProvider = {
         provider.rx
     }()
 
-    public init(_ provider: MoyaProvider<ShrubberyMoyaConfig>) {
+    public init(_ provider: MoyaProvider<SmashksMoyaConfig>) {
         self.provider = provider
     }
 

@@ -16,20 +16,6 @@ class DatabaseConfigurator: Assembly {
 
         // MARK: - Necessary Objects
 
-        // For Core Data
-        container.register(NSPersistentContainer.self) { _ in
-            let persistentContainer = NSPersistentContainer(name: ShrubberyCoreDataConstants.coredataName)
-            persistentContainer.loadPersistentStores { _, error in
-                if let error = error {
-                    fatalError("Unresolved error, \((error as NSError).userInfo)")
-                }
-            }
-
-            return persistentContainer
-        }
-        container.register(NSManagedObjectContext.self) { r in
-            r.resolve(NSPersistentContainer.self)!.viewContext
-        }
         // For Realm
         container.register(Realm.self) { _ in
             do {
@@ -41,11 +27,8 @@ class DatabaseConfigurator: Assembly {
 
         // MARK: - Provide to the others Assembly
 
-        container.register(LocalDataService.self, name: "coredata") {
-            ShrubberyCoreData(content: $0.resolve(NSManagedObjectContext.self)!)
-        }
         container.register(LocalDataService.self, name: "realm") {
-            ShrubberyRealm($0.resolve(Realm.self)!)
+            SmashksRealm($0.resolve(Realm.self)!)
         }
     }
 }
