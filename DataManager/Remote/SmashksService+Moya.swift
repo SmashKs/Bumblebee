@@ -6,6 +6,7 @@
 //  Copyright © 2018 SmashKs All rights reserved.
 //
 
+import EVReflection
 import Moya
 import RxSwift
 
@@ -24,6 +25,6 @@ public class SmashksMoyaService: RemoteDataService {
 #if DEBUG
         request = request.debug()
 #endif
-        return request.mapString().mapToObject(FakeEntity.self)
+        return request.Rmap(to: FakeEntity.self)
     }
 }

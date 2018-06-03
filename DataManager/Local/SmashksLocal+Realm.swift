@@ -21,7 +21,7 @@ public class SmashksRealm: LocalDataService {
         // FIXME: (jieyi 2018/05/22) Fix the object inheritance.
         return Single.just(realm.objects(TempObj.self))
             .map { _ -> FakeEntity in
-                FakeEntity(infoList: nil)
+                FakeEntity()
             }
     }
 

@@ -6,9 +6,9 @@
 //  Copyright © 2018 SmashKs All rights reserved.
 //
 
-import ObjectMapper
+import EVReflection
 
-public struct FakeEntity {
+public class FakeEntity: EVObject {
     typealias Infos = [Info]?
 
     var infoList: Infos = nil
@@ -16,15 +16,4 @@ public struct FakeEntity {
 
 extension FakeEntity: Entity {
     static let infos = "infos"
-}
-
-// MARK: - Object Mapper
-
-extension FakeEntity: Mappable {
-    public init?(map: Map) {
-    }
-
-    public mutating func mapping(map: Map) {
-        self.infoList <- map[FakeEntity.infos]
-    }
 }

@@ -7,10 +7,10 @@
 //
 
 import CommonUtil
-import ObjectMapper
+import EVReflection
 import RealmSwift
 
-public struct InformationEntity {
+public class InformationEntity: EVObject {
     var id: Int?
     var title: String?
     var updatedAt: Date?
@@ -22,17 +22,4 @@ extension Info: Entity {
     static let entityId = "id"
     static let entityTitle = "title"
     static let updatedDate = "updated_at"
-}
-
-// MARK: - Object Mapper
-
-extension Info: Mappable {
-    public init?(map: Map) {
-    }
-
-    public mutating func mapping(map: Map) {
-        id <- map[Info.entityId]
-        title <- map[Info.entityTitle]
-        updatedAt <- (map[Info.updatedDate], DateTransform())
-    }
 }
