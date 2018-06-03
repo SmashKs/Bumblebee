@@ -1,9 +1,9 @@
 //
-//  ShrubberyMoyaService.swift
-//  Shrubbery
+//  BumblebeeMoyaService.swift
+//  Bumblebee
 //
 //  Created by jieyi on 2018/05/22.
-//  Copyright © 2018 CloverLab. Inc. All rights reserved.
+//  Copyright © 2018 SmashKs All rights reserved.
 //
 
 import Moya

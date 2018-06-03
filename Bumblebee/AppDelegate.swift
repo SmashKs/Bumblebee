@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  shrubbery
+//  Bumblebee
 //
 //  Created by Jieyi Wu on 2017/12/08.
 //  Copyright © 2017 Jieyi Wu. All rights reserved.

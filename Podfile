@@ -4,7 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 use_frameworks!
 
-target 'Shrubbery' do
+target 'Bumblebee' do
   # For Reactive Programming
   pod 'RxSwift', '~> 4.1.2'
   pod 'RxCocoa', '~> 4.1.2'
