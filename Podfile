@@ -14,7 +14,7 @@ target 'Bumblebee' do
   pod 'Kingfisher', '~> 4.8.0'
 
   # For Logging
-  pod 'SwiftyBeaver'
+  pod 'SwiftyBeaver', '~> 1.6.0'
 
   # For Dependency Injection
   pod 'Swinject', '~> 2.4.0'
@@ -22,9 +22,8 @@ target 'Bumblebee' do
   target 'DataManager' do
     inherit! :search_paths
     # For RESTful Internet Request
-    pod 'ObjectMapper', '~> 3.1'
     pod 'Moya/RxSwift', '~> 11.0.2'
-    # pod 'Moya-ObjectMapper/RxSwift'
+    pod 'EVReflection/MoyaRxSwift', '~> 5.6.1'
 
     # For Json
     pod 'SwiftyJSON', '~> 4.1.0'
@@ -40,7 +39,7 @@ target 'Bumblebee' do
   target 'CommonUtil' do
     inherit! :search_paths
     # For Logging
-    pod 'SwiftyBeaver'
+    pod 'SwiftyBeaver', '~> 1.6.0'
   end
 
   #  target 'BumblebeeTests' do
