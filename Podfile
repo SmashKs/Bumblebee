@@ -6,8 +6,8 @@ use_frameworks!
 
 target 'Bumblebee' do
   # For Reactive Programming
-  pod 'RxSwift', '~> 4.1.2'
-  pod 'RxCocoa', '~> 4.1.2'
+  pod 'RxSwift', '~> 4.2.0'
+  pod 'RxCocoa', '~> 4.2.0'
 
   # For Image
   pod 'RxKingfisher', '~> 0.1.1'
@@ -17,20 +17,23 @@ target 'Bumblebee' do
   pod 'SwiftyBeaver', '~> 1.6.0'
 
   # For Dependency Injection
-  pod 'Swinject', '~> 2.4.0'
+  pod 'Swinject', '~> 2.4.1'
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
 
   target 'DataManager' do
     inherit! :search_paths
     # For RESTful Internet Request
     pod 'Moya/RxSwift', '~> 11.0.2'
-    pod 'EVReflection/MoyaRxSwift', '~> 5.6.1'
+    pod 'EVReflection/MoyaRxSwift', '~> 5.6.2'
 
     # For Json
     pod 'SwiftyJSON', '~> 4.1.0'
 
     # For Data Storage
-    pod 'Realm', '~> 3.6.0'
-    pod 'RealmSwift', '~> 3.6.0'
+    pod 'Realm', '~> 3.7.5'
+    pod 'RealmSwift', '~> 3.7.5'
 
     # For Dependency Injection
     pod 'Swinject', '~> 2.4.0'
